@@ -1,0 +1,244 @@
+2025-04-18 15:11:35,408 - __main__ - INFO - 环境变量已加载
+2025-04-18 15:11:35,419 - __main__ - INFO - 初始化Gradio界面
+2025-04-18 15:11:35,560 - __main__ - INFO - 启动Web服务
+2025-04-18 15:11:36,754 - httpx - INFO - HTTP Request: GET https://api.gradio.app/pkg-version "HTTP/1.1 200 OK"
+2025-04-18 15:11:37,939 - httpx - INFO - HTTP Request: GET http://localhost:7860/gradio_api/startup-events "HTTP/1.1 200 OK"
+2025-04-18 15:11:40,004 - httpx - INFO - HTTP Request: HEAD http://localhost:7860/ "HTTP/1.1 200 OK"
+2025-04-18 15:11:40,954 - __main__ - INFO - 接收原始查询: 你是谁
+2025-04-18 15:11:40,966 - __main__ - INFO - 翻译中文到英文: 你是谁...
+2025-04-18 15:11:40,966 - __main__ - ERROR - 翻译到英文失败: 
+
+You tried to access openai.ChatCompletion, but this is no longer supported in openai>=1.0.0 - see the README at https://github.com/openai/openai-python for the API.
+
+You can run `openai migrate` to automatically upgrade your codebase to use the 1.0.0 interface. 
+
+Alternatively, you can pin your installation to the old version, e.g. `pip install openai==0.28`
+
+A detailed migration guide is available here: https://github.com/openai/openai-python/discussions/742
+
+2025-04-18 15:11:40,967 - __main__ - INFO - 翻译后的查询: 你是谁
+2025-04-18 15:11:42,719 - httpx - INFO - HTTP Request: GET https://api.wolframalpha.com/v2/query?appid=A4QW44-UJK5WTGX96&input=%E4%BD%A0%E6%98%AF%E8%B0%81 "HTTP/1.1 200 OK"
+2025-04-18 15:11:42,724 - __main__ - ERROR - 查询失败: 
+2025-04-18 15:12:16,411 - __main__ - INFO - 接收原始查询: who are you
+2025-04-18 15:12:16,412 - __main__ - INFO - 翻译中文到英文: who are you...
+2025-04-18 15:12:16,412 - __main__ - ERROR - 翻译到英文失败: 
+
+You tried to access openai.ChatCompletion, but this is no longer supported in openai>=1.0.0 - see the README at https://github.com/openai/openai-python for the API.
+
+You can run `openai migrate` to automatically upgrade your codebase to use the 1.0.0 interface. 
+
+Alternatively, you can pin your installation to the old version, e.g. `pip install openai==0.28`
+
+A detailed migration guide is available here: https://github.com/openai/openai-python/discussions/742
+
+2025-04-18 15:12:16,413 - __main__ - INFO - 翻译后的查询: who are you
+2025-04-18 15:12:17,754 - httpx - INFO - HTTP Request: GET https://api.wolframalpha.com/v2/query?appid=A4QW44-UJK5WTGX96&input=who+are+you "HTTP/1.1 200 OK"
+2025-04-18 15:12:17,760 - __main__ - INFO - Wolfram Alpha原始结果: My name is Wolfram|Alpha....
+2025-04-18 15:12:17,760 - __main__ - INFO - 翻译回中文后的结果: My name is Wolfram|Alpha....
+2025-04-18 15:14:11,870 - __main__ - INFO - Web服务已关闭
+2025-04-18 15:14:17,207 - __main__ - INFO - 环境变量已加载
+2025-04-18 15:14:17,207 - __main__ - INFO - 初始化Gradio界面
+2025-04-18 15:14:17,346 - __main__ - INFO - 启动Web服务
+2025-04-18 15:14:18,212 - httpx - INFO - HTTP Request: GET https://api.gradio.app/pkg-version "HTTP/1.1 200 OK"
+2025-04-18 15:14:19,718 - httpx - INFO - HTTP Request: GET http://localhost:7860/gradio_api/startup-events "HTTP/1.1 200 OK"
+2025-04-18 15:14:21,811 - httpx - INFO - HTTP Request: HEAD http://localhost:7860/ "HTTP/1.1 200 OK"
+2025-04-18 15:14:24,500 - __main__ - INFO - 接收原始查询: 你是谁
+2025-04-18 15:14:24,500 - __main__ - INFO - 翻译中文到英文: 你是谁...
+2025-04-18 15:14:24,907 - httpx - INFO - HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-18 15:14:28,231 - __main__ - INFO - 翻译结果: Who are you?...
+2025-04-18 15:14:28,231 - __main__ - INFO - 翻译后的查询: Who are you?
+2025-04-18 15:14:29,834 - httpx - INFO - HTTP Request: GET https://api.wolframalpha.com/v2/query?appid=A4QW44-UJK5WTGX96&input=Who+are+you%3F "HTTP/1.1 200 OK"
+2025-04-18 15:14:29,842 - __main__ - INFO - Wolfram Alpha原始结果: My name is Wolfram|Alpha....
+2025-04-18 15:14:30,218 - httpx - INFO - HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-18 15:14:34,310 - __main__ - INFO - 翻译回中文后的结果: 我的名字是沃尔夫勒姆|阿尔法。...
+2025-04-18 15:16:56,130 - __main__ - INFO - Web服务已关闭
+2025-04-18 15:17:01,402 - __main__ - INFO - 环境变量已加载
+2025-04-18 15:17:01,402 - __main__ - INFO - 初始化Gradio界面
+2025-04-18 15:17:01,549 - __main__ - INFO - 启动Web服务
+2025-04-18 15:17:02,369 - httpx - INFO - HTTP Request: GET https://api.gradio.app/pkg-version "HTTP/1.1 200 OK"
+2025-04-18 15:17:03,920 - httpx - INFO - HTTP Request: GET http://localhost:7860/gradio_api/startup-events "HTTP/1.1 200 OK"
+2025-04-18 15:17:05,984 - httpx - INFO - HTTP Request: HEAD http://localhost:7860/ "HTTP/1.1 200 OK"
+2025-04-18 15:17:23,415 - __main__ - INFO - 接收原始查询: R0 value of COVID-19, 翻译开关: True
+2025-04-18 15:17:23,416 - __main__ - INFO - 翻译中文到英文: R0 value of COVID-19...
+2025-04-18 15:17:23,798 - httpx - INFO - HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-18 15:17:29,488 - __main__ - INFO - 翻译结果: R0 value of COVID-19  
+
+(Note:...
+2025-04-18 15:17:29,489 - __main__ - INFO - 翻译后的查询: R0 value of COVID-19  
+
+(Note: "R0" is pronounced "R naught" and is a standard epidemiological term referring to the basic reproduction number of an infectious disease. The translation remains the same in English as it is already an internationally recognized scientific term.)
+2025-04-18 15:17:34,252 - httpx - INFO - HTTP Request: GET https://api.wolframalpha.com/v2/query?appid=A4QW44-UJK5WTGX96&input=R0+value+of+COVID-19++%0A%0A%28Note%3A+%22R0%22+is+pronounced+%22R+naught%22+and+is+a+standard+epidemiological+term+referring+to+the+basic+reproduction+number+of+an+infectious+disease.+The+translation+remains+the+same+in+English+as+it+is+already+an+internationally+recognized+scientific+term.%29 "HTTP/1.1 200 OK"
+2025-04-18 15:17:34,259 - __main__ - ERROR - 查询失败: 
+2025-04-18 15:17:58,059 - __main__ - INFO - 接收原始查询: derivative of y = x^2, 翻译开关: True
+2025-04-18 15:17:58,060 - __main__ - INFO - 翻译中文到英文: derivative of y = x^2...
+2025-04-18 15:17:58,427 - httpx - INFO - HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-18 15:18:03,145 - __main__ - INFO - 翻译结果: The derivative of y = x^2 is: ...
+2025-04-18 15:18:03,146 - __main__ - INFO - 翻译后的查询: The derivative of y = x^2 is:  
+
+**dy/dx = 2x**  
+
+(Alternatively: "The derivative of y with respect to x is 2x.")
+2025-04-18 15:18:08,790 - httpx - INFO - HTTP Request: GET https://api.wolframalpha.com/v2/query?appid=A4QW44-UJK5WTGX96&input=The+derivative+of+y+%3D+x%5E2+is%3A++%0A%0A%2A%2Ady%2Fdx+%3D+2x%2A%2A++%0A%0A%28Alternatively%3A+%22The+derivative+of+y+with+respect+to+x+is+2x.%22%29 "HTTP/1.1 200 OK"
+2025-04-18 15:18:08,795 - __main__ - ERROR - 查询失败: 
+2025-04-18 15:20:25,385 - __main__ - INFO - Web服务已关闭
+2025-04-18 15:20:31,394 - __main__ - INFO - 环境变量已加载
+2025-04-18 15:20:31,394 - __main__ - INFO - 初始化Gradio界面
+2025-04-18 15:20:31,538 - __main__ - INFO - 启动Web服务
+2025-04-18 15:20:32,368 - httpx - INFO - HTTP Request: GET https://api.gradio.app/pkg-version "HTTP/1.1 200 OK"
+2025-04-18 15:20:33,912 - httpx - INFO - HTTP Request: GET http://localhost:7860/gradio_api/startup-events "HTTP/1.1 200 OK"
+2025-04-18 15:20:35,952 - httpx - INFO - HTTP Request: HEAD http://localhost:7860/ "HTTP/1.1 200 OK"
+2025-04-18 15:20:37,825 - __main__ - INFO - 接收原始查询: 你是谁, 翻译开关: True
+2025-04-18 15:20:37,826 - __main__ - INFO - 翻译中文到英文: 你是谁...
+2025-04-18 15:20:38,253 - httpx - INFO - HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-18 15:20:42,068 - __main__ - INFO - 翻译结果: Who are you...
+2025-04-18 15:20:42,068 - __main__ - INFO - 翻译后的查询: Who are you
+2025-04-18 15:20:43,636 - httpx - INFO - HTTP Request: GET https://api.wolframalpha.com/v2/query?appid=A4QW44-UJK5WTGX96&input=Who+are+you "HTTP/1.1 200 OK"
+2025-04-18 15:20:43,642 - __main__ - INFO - Wolfram Alpha原始结果: My name is Wolfram|Alpha....
+2025-04-18 15:20:44,009 - httpx - INFO - HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-18 15:20:48,308 - __main__ - INFO - 翻译回中文后的结果: 我叫Wolfram|Alpha。 {英文原文: My name is Wolfram|Alpha.}...
+2025-04-18 15:20:59,790 - __main__ - INFO - 接收原始查询: 法国总统的年龄, 翻译开关: True
+2025-04-18 15:20:59,790 - __main__ - INFO - 翻译中文到英文: 法国总统的年龄...
+2025-04-18 15:21:00,152 - httpx - INFO - HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-18 15:21:03,807 - __main__ - INFO - 翻译结果: The age of the French Presiden...
+2025-04-18 15:21:03,808 - __main__ - INFO - 翻译后的查询: The age of the French President
+2025-04-18 15:21:05,572 - httpx - INFO - HTTP Request: GET https://api.wolframalpha.com/v2/query?appid=A4QW44-UJK5WTGX96&input=The+age+of+the+French+President "HTTP/1.1 200 OK"
+2025-04-18 15:21:05,580 - __main__ - INFO - Wolfram Alpha原始结果: 47 years 3 months 27 days...
+2025-04-18 15:21:05,981 - httpx - INFO - HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-18 15:21:09,231 - __main__ - INFO - 翻译回中文后的结果: 47年3个月27天 {英文原文: 47 years 3 months 27 days}...
+2025-04-18 15:21:28,392 - __main__ - INFO - 接收增强查询: 比较GDP和人口增长的关系, 翻译开关: True
+2025-04-18 15:21:28,393 - __main__ - INFO - 使用APP_ID: A4QW4***初始化WolframAlphaAPIWrapper
+2025-04-18 15:21:28,393 - __main__ - INFO - 翻译中文到英文: 比较GDP和人口增长的关系...
+2025-04-18 15:21:28,766 - httpx - INFO - HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-18 15:21:32,047 - __main__ - INFO - 翻译结果: Comparing the relationship bet...
+2025-04-18 15:21:32,048 - __main__ - INFO - 翻译后的查询: Comparing the relationship between GDP and population growth
+2025-04-18 15:21:32,049 - __main__ - INFO - 发送查询到Wolfram Alpha
+2025-04-18 15:21:35,147 - httpx - INFO - HTTP Request: GET https://api.wolframalpha.com/v2/query?appid=A4QW44-UJK5WTGX96&input=Comparing+the+relationship+between+GDP+and+population+growth "HTTP/1.1 200 OK"
+2025-04-18 15:21:35,153 - __main__ - INFO - Wolfram Alpha结果: Wolfram Alpha wasn't able to answer it...
+2025-04-18 15:21:35,154 - __main__ - INFO - 使用DeepSeek优化答案
+2025-04-18 15:21:35,488 - httpx - INFO - HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-18 15:21:39,741 - __main__ - INFO - 优化后的结果: Wolfram Alpha 无法回答这个问题。...
+2025-04-18 15:21:40,153 - httpx - INFO - HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-18 15:21:43,757 - __main__ - INFO - 最终返回结果: Wolfram Alpha 无法回答这个问题。 {英文原文: Wolfram Alpha 无法回答这...
+2025-04-18 15:47:55,394 - __main__ - INFO - Web服务已关闭
+2025-04-18 15:48:00,899 - __main__ - INFO - 环境变量已加载
+2025-04-18 15:48:00,899 - __main__ - INFO - 初始化Gradio界面
+2025-04-18 15:48:01,048 - __main__ - INFO - 启动Web服务
+2025-04-18 15:48:01,888 - httpx - INFO - HTTP Request: GET https://api.gradio.app/pkg-version "HTTP/1.1 200 OK"
+2025-04-18 15:48:03,436 - httpx - INFO - HTTP Request: GET http://localhost:7860/gradio_api/startup-events "HTTP/1.1 200 OK"
+2025-04-18 15:48:05,477 - httpx - INFO - HTTP Request: HEAD http://localhost:7860/ "HTTP/1.1 200 OK"
+2025-04-18 15:48:11,012 - __main__ - INFO - 接收增强查询: 比较GDP和人口增长的关系, 翻译开关: True
+2025-04-18 15:48:11,013 - __main__ - INFO - 使用APP_ID: A4QW4***初始化WolframAlphaAPIWrapper
+2025-04-18 15:48:11,013 - __main__ - INFO - 翻译中文到英文: 比较GDP和人口增长的关系...
+2025-04-18 15:48:11,443 - httpx - INFO - HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-18 15:48:14,711 - __main__ - INFO - 翻译结果: Comparing the relationship bet...
+2025-04-18 15:48:14,711 - __main__ - INFO - 翻译后的查询: Comparing the relationship between GDP and population growth
+2025-04-18 15:48:14,711 - __main__ - INFO - 发送查询到Wolfram Alpha
+2025-04-18 15:48:18,193 - httpx - INFO - HTTP Request: GET https://api.wolframalpha.com/v2/query?appid=A4QW44-UJK5WTGX96&input=Comparing+the+relationship+between+GDP+and+population+growth "HTTP/1.1 200 OK"
+2025-04-18 15:48:18,200 - __main__ - INFO - Wolfram Alpha直接结果: Wolfram Alpha wasn't able to answer it...
+2025-04-18 15:48:18,201 - __main__ - INFO - Wolfram Alpha能直接回答问题
+2025-04-18 15:48:18,203 - __main__ - INFO - 使用DeepSeek优化答案
+2025-04-18 15:48:18,556 - httpx - INFO - HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-18 15:48:23,941 - __main__ - INFO - 优化后的结果: Wolfram Alpha无法解答这个问题。...
+2025-04-18 15:48:24,336 - httpx - INFO - HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-18 15:48:28,552 - __main__ - INFO - 最终返回结果: Wolfram Alpha 无法解答这个问题。 {英文原文: Wolfram Alpha无法解答这个...
+2025-04-18 15:50:12,531 - __main__ - INFO - Web服务已关闭
+2025-04-18 15:50:18,408 - __main__ - INFO - 环境变量已加载
+2025-04-18 15:50:18,408 - __main__ - INFO - 初始化Gradio界面
+2025-04-18 15:50:18,563 - __main__ - INFO - 启动Web服务
+2025-04-18 15:50:19,398 - httpx - INFO - HTTP Request: GET https://api.gradio.app/pkg-version "HTTP/1.1 200 OK"
+2025-04-18 15:50:20,938 - httpx - INFO - HTTP Request: GET http://localhost:7860/gradio_api/startup-events "HTTP/1.1 200 OK"
+2025-04-18 15:50:22,998 - httpx - INFO - HTTP Request: HEAD http://localhost:7860/ "HTTP/1.1 200 OK"
+2025-04-18 15:50:26,557 - __main__ - INFO - 接收增强查询: 比较GDP和人口增长的关系, 翻译开关: True
+2025-04-18 15:50:26,557 - __main__ - INFO - 使用APP_ID: A4QW4***初始化WolframAlphaAPIWrapper
+2025-04-18 15:50:26,558 - __main__ - INFO - 翻译中文到英文: 比较GDP和人口增长的关系...
+2025-04-18 15:50:26,946 - httpx - INFO - HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-18 15:50:30,734 - __main__ - INFO - 翻译结果: Comparing the relationship bet...
+2025-04-18 15:50:30,734 - __main__ - INFO - 翻译后的查询: Comparing the relationship between GDP and population growth
+2025-04-18 15:50:30,735 - __main__ - INFO - 发送查询到Wolfram Alpha
+2025-04-18 15:50:33,820 - httpx - INFO - HTTP Request: GET https://api.wolframalpha.com/v2/query?appid=A4QW44-UJK5WTGX96&input=Comparing+the+relationship+between+GDP+and+population+growth "HTTP/1.1 200 OK"
+2025-04-18 15:50:33,827 - __main__ - INFO - Wolfram Alpha直接结果: Wolfram Alpha wasn't able to answer it...
+2025-04-18 15:50:33,828 - __main__ - INFO - Wolfram Alpha能直接回答问题
+2025-04-18 15:50:33,829 - __main__ - INFO - 使用DeepSeek优化答案
+2025-04-18 15:50:34,225 - httpx - INFO - HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-18 15:50:38,159 - __main__ - INFO - 优化后的结果: Wolfram Alpha 无法回答这个问题。...
+2025-04-18 15:50:38,520 - httpx - INFO - HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-18 15:50:43,960 - __main__ - INFO - 最终返回结果: Wolfram Alpha 无法回答这个问题。 {英文原文: Wolfram Alpha 无法回答这...
+2025-04-18 15:52:03,357 - __main__ - INFO - Web服务已关闭
+2025-04-18 15:52:08,099 - __main__ - INFO - 环境变量已加载
+2025-04-18 15:52:08,099 - __main__ - INFO - 初始化Gradio界面
+2025-04-18 15:52:08,246 - __main__ - INFO - 启动Web服务
+2025-04-18 15:52:09,088 - httpx - INFO - HTTP Request: GET https://api.gradio.app/pkg-version "HTTP/1.1 200 OK"
+2025-04-18 15:52:10,621 - httpx - INFO - HTTP Request: GET http://localhost:7860/gradio_api/startup-events "HTTP/1.1 200 OK"
+2025-04-18 15:52:12,669 - httpx - INFO - HTTP Request: HEAD http://localhost:7860/ "HTTP/1.1 200 OK"
+2025-04-18 15:52:13,221 - __main__ - INFO - 接收增强查询: 比较GDP和人口增长的关系, 翻译开关: True
+2025-04-18 15:52:13,221 - __main__ - INFO - 使用APP_ID: A4QW4***初始化WolframAlphaAPIWrapper
+2025-04-18 15:52:13,222 - __main__ - INFO - 翻译中文到英文: 比较GDP和人口增长的关系...
+2025-04-18 15:52:13,625 - httpx - INFO - HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-18 15:52:16,895 - __main__ - INFO - 翻译结果: Compare the relationship betwe...
+2025-04-18 15:52:16,896 - __main__ - INFO - 翻译后的查询: Compare the relationship between GDP and population growth
+2025-04-18 15:52:16,896 - __main__ - INFO - 发送查询到Wolfram Alpha
+2025-04-18 15:52:23,574 - httpx - INFO - HTTP Request: GET https://api.wolframalpha.com/v2/query?appid=A4QW44-UJK5WTGX96&input=Compare+the+relationship+between+GDP+and+population+growth "HTTP/1.1 200 OK"
+2025-04-18 15:52:23,581 - __main__ - INFO - Wolfram Alpha直接结果: Assumption: all countries, dependencies, and terri...
+2025-04-18 15:52:23,582 - __main__ - INFO - Wolfram Alpha能直接回答问题
+2025-04-18 15:52:23,582 - __main__ - INFO - 使用DeepSeek优化答案
+2025-04-18 15:52:23,988 - httpx - INFO - HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-18 15:52:33,429 - __main__ - INFO - 优化后的结果: 以下是更自然、易于理解的表述：
+
+根据综合数据（涵盖所有国家、附属地和地区）：
+1. 全球名义GDP...
+2025-04-18 15:52:33,817 - httpx - INFO - HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-18 15:52:41,368 - __main__ - INFO - 最终返回结果: 根据综合数据（含所有国家及属地）：
+1. 全球名义GDP总量：1993-2023年间累计达106.1...
+2025-04-18 15:55:29,765 - __main__ - INFO - Web服务已关闭
+2025-04-18 15:55:35,374 - __main__ - INFO - 环境变量已加载
+2025-04-18 15:55:35,374 - __main__ - INFO - 初始化Gradio界面
+2025-04-18 15:55:35,520 - __main__ - INFO - 启动Web服务
+2025-04-18 15:55:36,385 - httpx - INFO - HTTP Request: GET https://api.gradio.app/pkg-version "HTTP/1.1 200 OK"
+2025-04-18 15:55:37,895 - httpx - INFO - HTTP Request: GET http://localhost:7860/gradio_api/startup-events "HTTP/1.1 200 OK"
+2025-04-18 15:55:39,952 - httpx - INFO - HTTP Request: HEAD http://localhost:7860/ "HTTP/1.1 200 OK"
+2025-04-18 15:55:42,352 - __main__ - INFO - 接收原始查询: 你是谁, 翻译开关: True
+2025-04-18 15:55:42,353 - __main__ - INFO - 翻译中文到英文: 你是谁...
+2025-04-18 15:55:42,797 - httpx - INFO - HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-18 15:55:46,093 - __main__ - INFO - 翻译结果: Who are you...
+2025-04-18 15:55:46,094 - __main__ - INFO - 翻译后的查询: Who are you
+2025-04-18 15:55:47,700 - httpx - INFO - HTTP Request: GET https://api.wolframalpha.com/v2/query?appid=A4QW44-UJK5WTGX96&input=Who+are+you "HTTP/1.1 200 OK"
+2025-04-18 15:55:47,703 - __main__ - INFO - Wolfram Alpha原始结果: My name is Wolfram|Alpha....
+2025-04-18 15:55:48,079 - httpx - INFO - HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-18 15:55:52,769 - __main__ - INFO - 翻译回中文后的结果: 我叫Wolfram|Alpha。 {英文原文: My name is Wolfram|Alpha.}...
+2025-04-18 15:56:35,683 - __main__ - INFO - 接收增强查询: 比较log(2)*9.34和e^pi的大小关系, 翻译开关: True
+2025-04-18 15:56:35,683 - __main__ - INFO - 使用APP_ID: A4QW4***初始化WolframAlphaAPIWrapper
+2025-04-18 15:56:35,683 - __main__ - INFO - 翻译中文到英文: 比较log(2)*9.34和e^pi的大小关系...
+2025-04-18 15:56:36,149 - httpx - INFO - HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-18 15:56:41,380 - __main__ - INFO - 翻译结果: Compare the magnitudes of log(...
+2025-04-18 15:56:41,381 - __main__ - INFO - 翻译后的查询: Compare the magnitudes of log(2)*9.34 and e^π.
+2025-04-18 15:56:41,382 - __main__ - INFO - 发送查询到Wolfram Alpha
+2025-04-18 15:56:43,274 - httpx - INFO - HTTP Request: GET https://api.wolframalpha.com/v2/query?appid=A4QW44-UJK5WTGX96&input=Compare+the+magnitudes+of+log%282%29%2A9.34+and+e%5E%CF%80. "HTTP/1.1 200 OK"
+2025-04-18 15:56:43,276 - __main__ - INFO - Wolfram Alpha直接结果: Assumption: {(mag (magnitude)) log(2)×9.34, e^π} 
+...
+2025-04-18 15:56:43,277 - __main__ - INFO - Wolfram Alpha能直接回答问题
+2025-04-18 15:56:43,277 - __main__ - INFO - 使用DeepSeek优化答案
+2025-04-18 15:56:43,652 - httpx - INFO - HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-18 15:56:49,805 - __main__ - INFO - 优化后的结果: 假设我们有两个数值：第一个是 magnitude（量级）为 log(2) × 9.34 的值，第二个...
+2025-04-18 15:56:50,168 - httpx - INFO - HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-18 15:56:56,263 - __main__ - INFO - 最终返回结果: 假设我们有两个数值：第一个是量级为log(2) × 9.34的值，第二个是e的π次方（即e^π）。经...
+2025-04-18 17:24:48,312 - __main__ - INFO - 接收增强查询: 比较log(2)*9.34和e^pi的大小关系, 翻译开关: True
+2025-04-18 17:24:48,314 - __main__ - INFO - 使用APP_ID: A4QW4***初始化WolframAlphaAPIWrapper
+2025-04-18 17:24:48,315 - __main__ - INFO - 翻译中文到英文: 比较log(2)*9.34和e^pi的大小关系...
+2025-04-18 17:24:48,729 - httpx - INFO - HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-18 17:24:52,519 - __main__ - INFO - 翻译结果: Compare the magnitudes of log(...
+2025-04-18 17:24:52,520 - __main__ - INFO - 翻译后的查询: Compare the magnitudes of log(2)*9.34 and e^π.
+2025-04-18 17:24:52,521 - __main__ - INFO - 发送查询到Wolfram Alpha
+2025-04-18 17:24:54,418 - httpx - INFO - HTTP Request: GET https://api.wolframalpha.com/v2/query?appid=A4QW44-UJK5WTGX96&input=Compare+the+magnitudes+of+log%282%29%2A9.34+and+e%5E%CF%80. "HTTP/1.1 200 OK"
+2025-04-18 17:24:54,424 - __main__ - INFO - Wolfram Alpha直接结果: Assumption: {(mag (magnitude)) log(2)×9.34, e^π} 
+...
+2025-04-18 17:24:54,425 - __main__ - INFO - Wolfram Alpha能直接回答问题
+2025-04-18 17:24:54,426 - __main__ - INFO - 使用DeepSeek优化答案
+2025-04-18 17:24:54,814 - httpx - INFO - HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-18 17:25:04,678 - __main__ - INFO - 优化后的结果: 假设我们有以下两个数值表达式：
+1. 以对数幅度（mag）表示的数值：log(2)×9.34
+2. ...
+2025-04-18 17:25:05,138 - httpx - INFO - HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-18 17:25:13,622 - __main__ - INFO - 最终返回结果: 假设我们有以下两个数值表达式：
+1. 以对数幅度（mag）表示的数值：log(2)×9.34
+2. ...
+2025-04-18 17:28:48,890 - __main__ - INFO - Web服务已关闭
